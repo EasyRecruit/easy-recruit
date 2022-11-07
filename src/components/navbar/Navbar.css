@@ -1,0 +1,177 @@
+@import url(../../App.css);
+.header {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+    background-color: white;
+  }
+  .header-bg {
+    background-color: var(--primary-color);
+  }
+  
+  .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+    padding: 0 2rem;
+  }
+  
+  .header .nav-menu a {
+    color: #ffffff;
+  }
+  
+  .header .navbar img {
+    height: 50px;
+    
+  }
+  
+  .header .nav-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .nav-item {
+    padding: 1rem;
+    font-weight: 500;
+  }
+  
+  .header .nav-item a:hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--secondary-color);
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
+  ul li {
+    list-style: none;
+    text-decoration: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .nav-item p {
+    color: var(--text-color);
+    font-weight: 700;
+  }
+  .nav-button {
+    color: #fff;
+    background-color: #412c76;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border: none;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-item-2 p{
+    color: #fff;
+    font-weight: 700;
+    
+  }
+  .nav-item2{
+    display: none;
+  }
+  .login-left{
+    margin-left: 15rem;
+  }
+  .signup-btn{
+    color: var(--primary-color);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .signup-btn:hover{
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .signup-btn h6{
+    font-weight: bold;
+    font-size: 15px;
+   
+  }
+  @media screen and (max-width: 940px) {
+    .header {
+      max-width: 100%;
+      background-color: transparent;
+    }
+    .header-bg {
+      background-color: white;
+    }
+    .header .navbar {
+      max-width: 100%;
+      padding: 0 2rem; 
+      align-items: center;
+  
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 0px;
+      flex-direction: column;
+      background-color: white;
+      width: 100%;
+      height: 100vh;
+      z-index: 999;
+      text-align: center;
+      transition: 0.5s;
+    }
+  
+    .nav-menu.active {
+      left: 0;
+    }
+  
+    .nav-item {
+      margin: .7rem 0;
+    }
+  
+    .header .navbar img {
+      width: 70px;
+      margin-top: 10px;
+    }
+   
+    .nav-item2{
+      display: flex;
+    }
+    .nav-button2 {
+      color: #412c76;
+      background-color: #fff;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-top: 0.7rem;
+      padding-bottom: 0.7rem;
+      border: none;
+      border-top-left-radius: 2rem;
+      border-bottom-right-radius: 2rem;
+      transition: 0.3s ease-in-out;
+    }
+    .nav-item p {
+      color: #000;
+    }
+    
+  }
+  
