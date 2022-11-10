@@ -8,8 +8,11 @@
 
 :root {
   --primary-color: #fa7445;
+  --primary-bold-color: #ff4400;
   --secondary-color: #f9f9f9;
   --text-color: #042a3e;
+  --text-light-color: rgb(124, 124, 124);
+  --dark-color: #000;
 }
 
 body {
