@@ -54,6 +54,11 @@
     font-weight: 500;
     color: var(--dark-color);
     text-decoration: none;
+    transition: .5s ease-in-out;
+}
+.banner-btn a:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
 }
 .btn-primary{
     background-color: var(--primary-color);
