@@ -13,7 +13,7 @@ const Home = () => {
         <div className="banner-text">
           <h1 className="banner-heading">Expand your recruitments network</h1>
           <p className="banner-para">
-            Gather connections and expand your social activity <br />
+            Gather connections and expand your social activity 
             between recruitments
           </p>
           <div className="banner-btn">

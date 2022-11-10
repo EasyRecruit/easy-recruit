@@ -73,7 +73,7 @@
     display: none;
   }
   .login-left{
-    margin-left: 15rem;
+    margin-left: 12rem;
   }
   .signup-btn{
     color: var(--primary-color);
@@ -100,7 +100,7 @@
   @media screen and (max-width: 940px) {
     .header {
       max-width: 100%;
-      background-color: transparent;
+      background-color: white;
     }
     .header-bg {
       background-color: white;
