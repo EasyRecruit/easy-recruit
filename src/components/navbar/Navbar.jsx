@@ -18,13 +18,12 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="logo-image mb-3" />
         </Link>
         <div className="hamburger" onClick={handleClick}>
-          {click ? (
-            <FaTimes size={30} style={{ color: "#000" }} />
-          ) : (
-            <FaBars size={30} style={{ color: "#000" }} />
-          )}
+          <FaBars size={30} style={{ color: "#000" }} />
         </div>
         <ul className={click ? "nav-menu active mt-3" : "nav-menu mt-2"}>
+          <li className="nav-item close-icon" onClick={handleClick}>
+            <FaTimes size={30} style={{ color: "#000" }} />
+          </li>
           <li className="nav-item">
             <Link to="/" className="link" onClick={closeMenu}>
               <p>Home</p>

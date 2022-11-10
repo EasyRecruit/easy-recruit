@@ -97,6 +97,9 @@
     font-size: 15px;
    
   }
+  .close-icon{
+    display: none;
+  }
   @media screen and (max-width: 940px) {
     .header {
       max-width: 100%;
@@ -159,6 +162,10 @@
     }
     .nav-item p {
       color: #000;
+    }
+    .close-icon{
+      display: block;
+     margin-top: 2rem;
     }
     
   }
