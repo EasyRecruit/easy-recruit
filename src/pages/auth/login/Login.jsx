@@ -13,7 +13,7 @@ const Login = () => {
         <div className="auth-container">
           <div className="auth-form">
             <h1>Sign In</h1>
-            <h3>Create Account to start using EasyRecruit</h3>
+            <h3>Login to your EasyRecruit Account</h3>
             <form className="form">
               <div className="form-group">
                 <div>
