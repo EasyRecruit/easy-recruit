@@ -143,3 +143,6 @@
     color: var(--text-color);
     margin-right: .5rem;
 }
+.employee-card-contact{
+    margin-top: 1rem;
+}
