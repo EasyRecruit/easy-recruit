@@ -1,0 +1,145 @@
+/* Employee Cards CSS */
+.employee-card {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.employee-card-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.employee-card-header-active{
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    color: green;
+    font-weight: bold;
+}
+.employee-card-header-inactive{
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 234, 238);
+    color: red;
+    font-weight: bold;
+}
+.employee-card-icon{
+    width: 1.3rem;
+    height: 1.3rem;
+    color: var(--text-color);
+}
+.employee-card-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.employee-card-description-image img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.employee-card-description-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.employee-card-description-details h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.employee-card-description-details p{
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--text-light-color);
+    margin-top: .3rem;
+}
+.employee-card-info{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--text-lighter-color);
+    border-radius: 5px;
+}
+.employee-card-category-availability{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.employee-card-category p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.employee-card-category h5{
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--text-light-color);
+}
+
+.employee-card-availability p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.employee-card-availability h5{
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--text-light-color);
+}
+.employee-card-email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+.employee-card-email p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.employee-card-phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+.employee-card-phone p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.employee-card-icon-2{
+    width: 1.3rem;
+    height: 1.3rem;
+    color: var(--text-color);
+    margin-right: .5rem;
+}

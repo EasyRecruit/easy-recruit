@@ -1,6 +1,7 @@
 import Navbar from './navbar/Navbar'
 import Footer from './footer/Footer'
-import Sidebar from './sidebar/Sidebar'
+import EmployeeCard from './cards/EmployeeCard'
+
 
 
 
@@ -9,5 +10,5 @@ import Sidebar from './sidebar/Sidebar'
 export {
     Navbar,
     Footer,
-    Sidebar
+    EmployeeCard
 }
