@@ -1,6 +1,6 @@
-import { Navbar } from "../../components";
+import { Navbar } from "../../../components";
 import "./Home.css";
-import { banner } from "../../assets";
+import { banner } from "../../../assets";
 
 const Home = () => {
   return (

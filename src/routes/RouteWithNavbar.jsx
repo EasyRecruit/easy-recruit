@@ -1,15 +1,16 @@
-import { Route } from "react-router-dom";
-import {Navbar, Footer} from '../components'
+// Create a route with navbar resuable component
 
+import React from 'react';
+import { Route } from 'react-router-dom';
+import {Navbar} from '../components';
 
-const RouteWithNavbar = ({ component: Component, ...rest }) => {
+const RouteWithNavbar = ({ element, ...rest }) => {
   return (
     <Route {...rest}>
       <Navbar />
-      <Component extra={rest} />
-      <Footer/>
+      {element}
     </Route>
   );
-};
+}
 
 export default RouteWithNavbar;

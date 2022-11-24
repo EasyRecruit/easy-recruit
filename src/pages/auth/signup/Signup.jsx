@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { banner2, logo, person } from "../../../assets";
+import { person } from "../../../assets";
 import { Navbar } from "../../../components";
 import "./Signup.css";
 

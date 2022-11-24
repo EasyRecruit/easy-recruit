@@ -1,0 +1,26 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    
+}
+.dashboard-content{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+@media screen and (max-width: 940px) {
+    .main-container{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+    .dashboard-content{
+        height: 100%;
+        width: 100%;
+        background-color: red;
+    }
+}

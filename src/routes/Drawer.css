@@ -1,0 +1,160 @@
+.drawer-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 25%;
+    height: 100vh;
+    background-color: var(--text-color);
+    /* transition: .3s ease-in-out; */
+}
+
+.drawer-header-logo img{
+    width: 4rem;
+    height: 4rem;
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    color: white;
+}
+.text{
+    color: white;
+    text-decoration: none;
+}
+.drawer-menu-item{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: .5s ease-in-out;
+    padding: 0 1rem;
+    border-radius: 5px;
+}
+.drawer-menu-item:hover{
+    background-color: var(--primary-bold-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.drawer-menu ul li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.drawer-menu {
+    /* margin-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+.drawer-header{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.menu-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+.drawer-header-logo{
+    transition: .3s ease;
+}
+
+.drawer-menu-items{
+    height: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+.drawer-menu-help{
+    height: 10%;
+    display: flex;
+    padding: 0 1rem;
+    /* flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; */
+}
+
+
+
+/* Drawer Menu Small Size CSS  */
+.hide{
+    display: none;
+    /* transition: .3s ease; */
+}
+.drawer-menu-item-small{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease;
+    /* padding: 0 1rem; */
+    border-radius: 5px;
+}
+.drawer-menu-item-small:hover{
+    background-color: var(--primary-bold-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    border-radius: 5px;
+
+    /* SHow tooltip */
+    
+}
+.drawer-header-small{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+.drawer-container-small{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 7%;
+    height: 100vh;
+    background-color: var(--text-color);
+    transition: .3s  ease-in;
+}
+.icon-small{
+    width: 3rem;
+    height: 3rem;
+    /* margin-right: 1rem; */
+    color: white;
+}
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 940px) {
+    .drawer-container{
+        
+        width: 75%;
+       
+        position: relative;
+        /* transition: .3s ease-in-out; */
+    }
+    .drawer-container-small{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 25%;
+        height: 100vh;
+        background-color: var(--text-color);
+        transition: .3s  ease-in;
+    }
+    .drawer-header-small{
+        
+        margin-left: 0rem;
+    }
+}
