@@ -1,6 +1,7 @@
 import Navbar from './navbar/Navbar'
 import Footer from './footer/Footer'
 import EmployeeCard from './cards/EmployeeCard'
+import DashboardNav from './dashboardNav/DashboardNav'
 
 
 
@@ -10,5 +11,6 @@ import EmployeeCard from './cards/EmployeeCard'
 export {
     Navbar,
     Footer,
-    EmployeeCard
+    EmployeeCard,
+    DashboardNav
 }

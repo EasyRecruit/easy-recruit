@@ -135,9 +135,7 @@
 /* Media Queries */
 @media screen and (max-width: 940px) {
     .drawer-container{
-        
         width: 75%;
-       
         position: relative;
         /* transition: .3s ease-in-out; */
     }
@@ -145,7 +143,7 @@
         display: flex;
         flex-direction: column;
         padding: 1rem;
-        width: 20%;
+        width: 18%;
         height: 100vh;
         background-color: var(--text-color);
         transition: .3s  ease-in;

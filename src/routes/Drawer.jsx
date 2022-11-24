@@ -7,8 +7,8 @@ import "./Drawer.css";
 
 const Drawer = () => {
   const [open, setOpen] = useState(true);
-  // Selected Link Index
-    const [selected, setSelected] = useState(0);
+  // Smaall Screen
+  const [smallScreen, setSmallScreen] = useState(false);
 
   // Menu list Items
   const menuItems = [
@@ -36,6 +36,13 @@ const Drawer = () => {
 //  // Set Selected Link
 //   const setSelectedLink = (index) => {
 //     setSelected(index);
+
+//  Check if small screen 
+  // const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+
+  // if (isSmallScreen) {
+  //   setSmallScreen(true);
+  // }
 
   
   const LinkStyle = {

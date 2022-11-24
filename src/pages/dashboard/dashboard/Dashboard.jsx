@@ -1,4 +1,4 @@
-import { EmployeeCard } from "../../../components";
+import { EmployeeCard, DashboardNav } from "../../../components";
 import { Drawer } from "../../../routes";
 import "./Dashboard.css";
 
@@ -94,7 +94,7 @@ const Dashboard = () => {
     <div className="main-container">
       <Drawer />
       <div className="dashboard-content">
-        <h1>Dashboard</h1>
+        <DashboardNav />
         <div className="dashboard-content-cards">
           {employeeData.map((employee) => (
             <EmployeeCard

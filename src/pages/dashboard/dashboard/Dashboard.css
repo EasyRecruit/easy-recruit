@@ -17,6 +17,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 1rem;
+    /* margin-top: 5rem; */
 }
 
 @media screen and (max-width: 940px) {
@@ -27,9 +28,9 @@
         position: absolute;
         width: 100%;
     }
-    .dashboard-content{
+    /* .dashboard-content{
         height: 100%;
         width: 100%;
         background-color: red;
-    }
+    } */
 }

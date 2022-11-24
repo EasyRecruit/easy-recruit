@@ -57,13 +57,13 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item login-left">
-            <Link to="/login" className="login-btn">
+            <Link to="/login" className="login-btn" onClick={closeMenu}>
               <p>Login</p>
             </Link>
           </li>
 
           <li className="nav-item">
-            <Link to="/signup" className="btn-link">
+            <Link to="/signup" className="btn-link" onClick={closeMenu}>
               <button className="signup-btn">
                 <h6>Sign Up For Free</h6>
               </button>
